@@ -3455,7 +3455,7 @@ var StyledNav = styled.nav(templateObject_2 || (templateObject_2 = __makeTemplat
     var theme = _a.theme;
     return theme.mediaQueries.sm;
 });
-var BodyWrapper = styled.div(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  background-image: url(/images/main-bg.jpg);\n  background-repeat: no-repeat;\n  background-size: cover;\n"], ["\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  background-image: url(/images/main-bg.jpg);\n  background-repeat: no-repeat;\n  background-size: cover;\n"])));
+var BodyWrapper = styled.div(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  position: relative;\n  display: flex;\n  flex-direction: column;\n"], ["\n  position: relative;\n  display: flex;\n  flex-direction: column;\n"])));
 var Inner = styled.div(templateObject_4 || (templateObject_4 = __makeTemplateObject(["\n  flex-grow: 1;\n  transition: margin-top 0.2s, margin-left 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  transform: translate3d(0, 0, 0);\n  max-width: 100%;\n"], ["\n  flex-grow: 1;\n  transition: margin-top 0.2s, margin-left 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  transform: translate3d(0, 0, 0);\n  max-width: 100%;\n"])));
 var MobileOnlyOverlay = styled(Overlay)(templateObject_5 || (templateObject_5 = __makeTemplateObject(["\n  position: fixed;\n  height: 100%;\n\n  ", " {\n    display: none;\n  }\n"], ["\n  position: fixed;\n  height: 100%;\n\n  ", " {\n    display: none;\n  }\n"])), function (_a) {
     var theme = _a.theme;

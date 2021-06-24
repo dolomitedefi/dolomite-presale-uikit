@@ -49,9 +49,6 @@ const BodyWrapper = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
-  background-image: url(/images/main-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 `;
 
 const Inner = styled.div<{ isPushed: boolean; showMenu: boolean; hideSidebar: boolean; }>`
